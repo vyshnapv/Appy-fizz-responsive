@@ -1,0 +1,49 @@
+body
+{
+  margin-left:-10px;
+  margin-right:-10px;
+}
+.text
+{
+    font-size:60px;
+}
+
+.sec-one{
+    width:24%;
+    
+}
+
+.footer{
+    height:254px;
+    
+}
+.contain-footer{
+    padding-top:45px;
+    background-color: white;
+}
+.hey{
+    color: black;
+    text-decoration: none;
+    font-size:14px;
+}
+.hey:hover {
+
+    text-decoration: underline;
+    color: red;   
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #eb2222;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .dropdown-menu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
